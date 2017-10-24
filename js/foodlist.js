@@ -10,6 +10,7 @@ addButton.onclick = function () {
 
     // set li's text to the input's value
     // (the value of a text input is whatever the user typed)
+    // 🚨 "value" only works for INPUTs 🚨
     newLi.innerHTML = myInput.value;
 
     // delete the input's text (for the next food)
