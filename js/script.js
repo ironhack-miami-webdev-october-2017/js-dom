@@ -24,6 +24,7 @@ myButton.onclick = function () {
 var removePsButton = document.querySelector('.remove-ps');
 
 removePsButton.onclick = function () {
+    var contentDiv = document.querySelector('#content');
     var badP = document.querySelector('.bad-p');
 
     // parent
